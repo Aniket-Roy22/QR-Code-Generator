@@ -3,6 +3,7 @@
     "fs": "^0.0.1-security",
     "inquirer": "^9.3.7",
     "qr-image": "^3.2.0",
+    "qr-image-color": "^3.2.1",
     "qr-image-dark": "^3.2.1"
   },
   "name": "2.4-qr-code-project",

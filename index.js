@@ -1,6 +1,6 @@
 import * as fs from 'node:fs';
 import inquirer from 'inquirer';
-import qr from "qr-image";
+import qr from "qr-image-color";
 
 inquirer
   .prompt([{
@@ -14,7 +14,7 @@ inquirer
         console.log("URL Accepted!");
     })
 
-    var qr_img = qr.image(answers.acceptURL, {type: "png"});
+    var qr_img = qr.image(answers.acceptURL, {type: "png", color: "#f4c430", background: "black"});
     qr_img.pipe(fs.createWriteStream("qr_img.png"));
   })
   .catch((error) => {
