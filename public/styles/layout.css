@@ -4,8 +4,8 @@ body
 {
     margin: 0;
     padding: 0;
-    background-color: #222831;
-    color: #FFD369;
+    background-color: #14181d;
+    color: #fac240;
 }
 
 h1
@@ -28,8 +28,8 @@ h2
 
 .form-area
 {
-    margin: 5rem;
-    padding: 3% 0;
+    margin: 0 5rem;
+    padding: 3% 0 4%;
     border-radius: 25px;
     background-color: #393E46;
 }
@@ -46,18 +46,20 @@ form
 {
     width: 70%;
     background-color: #EEEEEE;
+    border-radius: 6px;
 }
 
 .button
 {
     font-family: "Montserrat", serif;
     font-weight: 600;
+    border-radius: 6px;
 }
 
 .scan-area
 {
     margin: 5rem;
-    padding: 3% 0;
+    padding: 3% 0 4%;
     border-radius: 25px;
     background-color: #393E46;
 }
@@ -70,12 +72,13 @@ form
     margin: auto;
     width: 25%;
     aspect-ratio: 1/1;
-    /* border: 5px solid black;
-    background-color: #EEEEEE; */
 }
 
 .qr
 {
+    width: 25vw;
+    aspect-ratio: 1/1;
     padding: 2%;
     border: 5px solid black;
+    border-radius: 25px;
 }

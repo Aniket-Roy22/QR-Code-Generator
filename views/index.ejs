@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/layout.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+    <meta
+      name="description"
+      content="Create your custom QR Code for any text you want!"
+    />
     <title>QR Easy</title>
 </head>
 <body>
@@ -26,9 +31,7 @@
         <h2 class="scan">Scan Here!</h2>
 
         <div class="qr-area">
-            <% if (locals.foundURL) { %>
-                <img class="qr" src= <%= foundURL %> alt="qr-code">
-            <% } %>
+            <img class="qr" src= <%= foundURL %> alt="qr-code">
         </div>
      </div>
 </body>
