@@ -1,11 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Tiny5&display=swap');
 
+:root
+{
+    --primary-background : #14181d;
+    --secondary-background: #393E46;
+    --tertiary-background: #eeeeee;
+    --text-colour: #fac240;
+}
+
 body
 {
     margin: 0;
     padding: 0;
-    background-color: #14181d;
-    color: #fac240;
+    background-color: var(--primary-background);
+    color: var(--text-colour);
 }
 
 h1
@@ -20,7 +28,7 @@ h1
 h2
 {
     text-align: center;
-    margin: 0 0 2%;
+    margin: 0 0 3%;
     font-family: "Tiny5", sans-serif;
     font-weight: 400;
     font-size: 3rem;
@@ -31,7 +39,7 @@ h2
     margin: 0 5rem;
     padding: 3% 0 4%;
     border-radius: 25px;
-    background-color: #393E46;
+    background-color: var(--secondary-background);
 }
 
 form
@@ -45,8 +53,9 @@ form
 #txt
 {
     width: 70%;
-    background-color: #EEEEEE;
+    background-color: var(--tertiary-background);
     border-radius: 6px;
+    height: 30px;
 }
 
 .button
@@ -54,6 +63,8 @@ form
     font-family: "Montserrat", serif;
     font-weight: 600;
     border-radius: 6px;
+    height: 35px;
+    /* background-color: var(--text-colour); */
 }
 
 .scan-area
@@ -61,7 +72,7 @@ form
     margin: 5rem;
     padding: 3% 0 4%;
     border-radius: 25px;
-    background-color: #393E46;
+    background-color: var(--secondary-background);
 }
 
 .qr-area
