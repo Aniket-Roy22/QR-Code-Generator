@@ -1,11 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Tiny5&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Play:wght@400;700&family=Tiny5&family=Wallpoet&display=swap');
 
 :root
 {
     --primary-background : #14181d;
     --secondary-background: #393E46;
     --tertiary-background: #eeeeee;
-    --text-colour: #fac240;
+    --text-gradient1: #fc4a1a;
+    --text-gradient2: #fac240;
 }
 
 body
@@ -23,6 +24,9 @@ h1
     font-family: "Tiny5", sans-serif;
     font-weight: 400;
     font-size: 5rem;
+    background-image: linear-gradient(var(--text-gradient1), var(--text-gradient2));
+    color: transparent;
+    background-clip: text;
 }
 
 h2
@@ -32,6 +36,9 @@ h2
     font-family: "Tiny5", sans-serif;
     font-weight: 400;
     font-size: 3rem;
+    background-image: linear-gradient(var(--text-gradient1), var(--text-gradient2));
+    color: transparent;
+    background-clip: text;
 }
 
 .form-area
@@ -60,11 +67,11 @@ form
 
 .button
 {
-    font-family: "Montserrat", serif;
+    font-family: "Play", sans-serif;
     font-weight: 600;
+    font-size: 1.1rem;
     border-radius: 6px;
     height: 35px;
-    /* background-color: var(--text-colour); */
 }
 
 .scan-area
