@@ -3,7 +3,6 @@ import express from "express";
 import nodeCanvas from "canvas";
 import QRCodeStyling from "qr-code-styling";
 import { JSDOM } from "jsdom";
-import { image } from 'qr-image-color';
 
 const port = 8080;
 const app = express();
