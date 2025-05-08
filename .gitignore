@@ -131,3 +131,4 @@ dist
 
 # Project specifics
 ./public/images/qr_img.png
+.vercel
