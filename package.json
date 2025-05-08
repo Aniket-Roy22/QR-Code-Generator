@@ -1,11 +1,12 @@
 {
   "dependencies": {
-    "canvas": "^2.11.2",
+    "canvas": "^3.1.0",
     "ejs": "^3.1.10",
     "express": "^4.21.1",
     "fs": "^0.0.1-security",
     "inquirer": "^9.3.7",
     "jsdom": "^25.0.1",
+    "nodemon": "^3.1.9",
     "qr-code-styling": "^1.8.4",
     "qr-image": "^3.2.0",
     "qr-image-color": "^3.2.1",
